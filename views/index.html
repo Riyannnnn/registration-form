@@ -5,25 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <!-- <script src="../js/control.js"></script> -->
     <title>REGISTRATION FORM</title>
 </head>
 <body>
 <div class="main">
     <div class="heading">REGISTRATION FORM</div>
     <div class="form">
-        <form action="">
+        <form action="../views/next.html" method="get" target="_blank" >
             <label for="fname">FirstName:</label><br>
-            <input class="input" type="text" id="fname" placeholder="Enter your first name" required> <br><br>
+            <input class="input" type="text" name="Firstname" id="fname" placeholder="Enter your first name" > <br><br>
+
             <label for="lname">LastName:</label><br>
-            <input class="input" type="text" id="lname" placeholder="Enter your last name" required ><br><br>
+            <input class="input" type="text" name="Lastname" id="lname" placeholder="Enter your last name"  ><br><br>
+
             <label for="email">Email ID:</label><br>
-            <input class="input" type="email" id="email" placeholder="Enter your  Email" required><br><br>
+            <input class="input" type="email"name="Email" id="email" placeholder="Enter your  Email"><br><br>
+
             <label for="DOB">Date Of Birth:</label><br>
-            <input class="input" type="date" id="DOB" placeholder="Enter your dob" required><br><br>
+            <input class="input" type="date" name="DOB" id="DOB" pattern="" placeholder="Enter your dob" ><br><br>
+
             <label for="num">Ph Number:</label><br>
-            <input  class="input" type="text" name="country code" value="+91" size="2">
-            <input class="input"  type="number" id="num"size="10" placeholder="Enter your number" required><br><br>
-            <input class="button" type="button" value="Submit">        
+            <input  class="input" type="text" name="Country code" value="+91" size="2">
+            <input class="input"  type="number" name="Number " id="num"size="10" placeholder="Enter your number" ><br><br>
+            
+            <input class="submit" type="submit" value="Submit">       
+            <!-- <a href="next.html" class="submit">Submit</a> -->
+
         </form>
 
     </div>

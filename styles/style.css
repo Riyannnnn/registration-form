@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 .main{
     width: 500px;
@@ -39,20 +39,20 @@
     padding: 6px;
     
 }
-.button{
+.submit{
     padding-left:20px;
     padding-right:20px;
     padding-top:5px;
     padding-bottom:5px;
     margin-left: 38%;
     border-radius: 10px;
-    background-color: #c7955b;
+    background-color: #94b6d1;
     box-shadow:5px #998f8f;
     cursor: pointer;
     color: white;
 }
-.button:hover{
-    background-color: aqua;
+.submit:hover{
+    background-color: rgb(161, 214, 168);
     color: black;
 }
 
