@@ -5,7 +5,7 @@
 }
 .main{
     width: 500px;
-    height: 600px;
+    height: 700px;
     border: 5px;
     border-style: none;
     border-radius: 20px;
@@ -55,7 +55,14 @@
     background-color: rgb(161, 214, 168);
     color: black;
 }
-
-
+.country{
+    border-radius: 2px;
+    border: none;
+    margin: 5px;
+    padding: 6px;   
+}
+#myfile{
+    margin-top: 5px;
+}
 
 

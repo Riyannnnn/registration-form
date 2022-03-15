@@ -14,21 +14,37 @@
     <div class="form">
         <form action="../views/next.html" method="get" target="_blank" >
             <label for="fname">FirstName:</label><br>
-            <input class="input" type="text" name="Firstname" id="fname" placeholder="Enter your first name" > <br><br>
+            <input class="input" type="text" name="Firstname" id="fname" placeholder="Enter your first name" required > <br><br>
 
             <label for="lname">LastName:</label><br>
-            <input class="input" type="text" name="Lastname" id="lname" placeholder="Enter your last name"  ><br><br>
+            <input class="input" type="text" name="Lastname" id="lname" placeholder="Enter your last name"  required><br><br>
 
             <label for="email">Email ID:</label><br>
-            <input class="input" type="email"name="Email" id="email" placeholder="Enter your  Email"><br><br>
+            <input class="input" type="email"name="Email" id="email" placeholder="Enter your  Email" required><br><br>
 
             <label for="DOB">Date Of Birth:</label><br>
-            <input class="input" type="date" name="DOB" id="DOB" pattern="" placeholder="Enter your dob" ><br><br>
+            <input class="input" type="date" name="DOB" id="DOB" pattern="" placeholder="Enter your dob" required><br><br>
 
             <label for="num">Ph Number:</label><br>
             <input  class="input" type="text" name="Country code" value="+91" size="2">
-            <input class="input"  type="number" name="Number " id="num"size="10" placeholder="Enter your number" ><br><br>
-            
+            <input class="input"  type="number" name="Number " id="num"size="10" placeholder="Enter your number" required><br><br>
+
+            <label for="country">Select-country:</label><br>
+            <select class="country" name="country" id="country">
+                <option value="india">Australia</option>
+                <option value="india">India</option>
+                <option value="india">Japan</option>
+                <option value="india">Saudi Arabia</option>
+            </select><br><br>
+
+            <label for="">Upload file:</label><br>
+            <input type="file" id="myfile" name="myfile"><br><br>
+             
+
+            <!-- <label for="gender">Gender</label><br>
+            <input  class="input" type="radio" id="gender" name="Male" checked><br>
+            <input  class="input" type="radio" id="gender" name="Female"><br>
+            <input  class="input" type="radio" id="gender" name="Others"><br> -->
             <input class="submit" type="submit" value="Submit">       
             <!-- <a href="next.html" class="submit">Submit</a> -->
 
@@ -38,3 +54,4 @@
 </div>
 </body>
 </html> 
+
